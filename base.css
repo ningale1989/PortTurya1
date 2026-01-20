@@ -22,6 +22,12 @@ body {
   box-sizing: border-box;
 }
 
+.site-header .logo span {
+  font-size: 32px; /* adjust size */
+  font-weight: 600; /* optional: makes it stronger */
+  font-family: "Papyrus", fantasy;
+}
+
 
 a.link {
   text-decoration: none;
