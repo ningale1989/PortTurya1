@@ -189,6 +189,12 @@ h1 {
   color: var(--accent);
 }
 
+.btn-outline-light:hover {
+  background: #fff;
+  color: #000;
+}
+
+
 .meta {
   font-size: 0.8rem;
   color: var(--muted);
