@@ -1,0 +1,30 @@
+:root {
+  --bg: #020617;
+  --bg-alt: #020617;
+  --fg: #e5e7eb;
+  --muted: #9ca3af;
+  --accent: #38bdf8;
+  --card-bg: #020617;
+  --border-subtle: #1f2937;
+}
+
+body {
+  background-image: url("images/bg.png");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+a.link {
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: var(--accent);
+}
